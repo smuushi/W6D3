@@ -1,0 +1,9 @@
+  [1m[35m (574.2ms)[0m  [1m[35mCREATE DATABASE "phasing_development" ENCODING = 'unicode'[0m
+  [1m[35m (204.3ms)[0m  [1m[35mCREATE DATABASE "phasing_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2023-02-15 15:01:28 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/smuushi/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/smuushi/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 14.2ms | Allocations: 527)
+Completed 200 OK in 110ms (Views: 52.1ms | ActiveRecord: 0.0ms | Allocations: 2795)
+
+
