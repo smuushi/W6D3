@@ -12,9 +12,12 @@ Rails.application.routes.draw do
 
   get "users/new", to: "users#new", as: "new_user"
 
-  get "users/:id", to: "users#find", as: "user"
+  get "users/:id", to: "users#show", as: "user"
 
   patch "users/:id", to: "users#update"
 
   delete "users/:id", to: "users#destroy", as: "rip"
+
+  get "users/main", to: 'user#main', as: "home"
+
 end
